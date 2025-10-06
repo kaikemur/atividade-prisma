@@ -1,0 +1,6 @@
+vamos utililizar o prisma 
+-> npm install prisma @prisma/client
+
+depois de instalar, vamos executar o prisma
+->npx prisma init
+npx mesmo! não é npm

@@ -1,0 +1,25 @@
+{
+  "name": "atividade-harry-potter",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cls && nodemon server.js"
+  },
+  "keywords": [
+    "nodemon",
+    "json",
+    "harry-potter"
+  ],
+  "author": "kaike",
+  "license": "MIT",
+  "description": "atvidade de back sobre harry potter",
+  "dependencies": {
+    "@prisma/client": "^6.16.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.16.3"
+  }
+}
