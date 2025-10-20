@@ -1,8 +1,11 @@
-import express from "express";
-import { getALLBruxos } from "../controllers/bruxoscontroller.js";
+import { Router } from "express";
+import * as BruxosController from './../controllers/bruxosControllers.js'
 
-const router = express.Router();
+const router = Router();
 
-router.get("/",getALLBruxos);
+//rota getall em /
+router.get("/", BruxosController.listarTodos);
+//rota getbyid em /
+router.get("/:id", BruxosController.listarUm);
 
-export default router;
+export default router

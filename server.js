@@ -1,5 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
+import bruxosRoutes from './src/routes/bruxosRoutes.js'
 
 const app =express();
 app.use(express.json());
@@ -13,9 +14,7 @@ app.get("/",(req,res)=> {
 })
 
 //aqui vão as rotas
-
-
-
+app.use('/bruxos', bruxosRoutes)
 
 app.listen(serverPort,() => {
     console.log(`servidor rodando em http://localhost:${serverPort}`);
