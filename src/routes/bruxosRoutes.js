@@ -8,4 +8,9 @@ router.get("/", BruxosController.listarTodos);
 //rota getbyid em /
 router.get("/:id", BruxosController.listarUm);
 
+router.post("/",BruxosController.criarBruxo)
+
+router.delete("/:id",BruxosController.apagar)
+
+router.put("/:id",BruxosController.atualizar)
 export default router
