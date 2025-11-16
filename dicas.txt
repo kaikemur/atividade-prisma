@@ -14,4 +14,7 @@ npx prisma migrate dev --name init
 
 npx prisma generate
 
+para executar a seed usamos:
+npx prisma db seed
+
 npm run studio
