@@ -1,4 +1,4 @@
-vamos utililizar o prisma 
+vamos utilizar o prisma 
 -> npm install prisma @prisma/client
 
 depois de instalar, vamos executar o prisma
